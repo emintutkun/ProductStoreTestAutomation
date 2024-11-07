@@ -27,7 +27,7 @@ public class BuyTests extends BaseTests
                 .fillLoginPassword("test")
                 .logInClick();
         loginPage.accountControl("Welcome test");
-
+        screenshot();
         //Ürün Seçimi
         homePage.clickProduct();
 
@@ -36,7 +36,7 @@ public class BuyTests extends BaseTests
                 .addToCartClick();
 
         driver.navigate().refresh();
-
+        screenshot();
         productPage.cartClick();
 
         cartPage.cartControl("Place Order")
