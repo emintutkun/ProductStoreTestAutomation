@@ -19,5 +19,7 @@ public class LoginTests extends BaseTests
                 .fillLoginPassword("test")
                 .logInClick();
         loginPage.accountControl("Welcome test");
+
+        screenshot();
     }
 }

@@ -49,5 +49,7 @@ public class BuyTests extends BaseTests
                 .fillYear("1998")
                 .purchaseClick()
                 .shoppingControl("OK");
+
+        screenshot();
     }
 }

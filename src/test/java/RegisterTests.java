@@ -18,5 +18,7 @@ public class RegisterTests extends BaseTests
                 .fillPassword("test")
                 .signUpClick();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+
+        screenshot();
     }
 }
