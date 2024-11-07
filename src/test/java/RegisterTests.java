@@ -1,4 +1,5 @@
 import base.BaseTests;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import pages.RegisterPage;
 import java.util.concurrent.TimeUnit;
@@ -17,7 +18,7 @@ public class RegisterTests extends BaseTests
         registerPage.fillUsername(username)
                 .fillPassword("test");
         screenshot();
-        registerPage.signUpClick();
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        registerPage.signUpClick();
     }
 }

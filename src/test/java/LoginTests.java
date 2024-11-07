@@ -18,9 +18,10 @@ public class LoginTests extends BaseTests
         loginPage.fillLoginUsername("test")
                 .fillLoginPassword("test");
         screenshot();
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
         loginPage.logInClick();
         loginPage.accountControl("Welcome test");
-
+        screenshot();
 
     }
 }

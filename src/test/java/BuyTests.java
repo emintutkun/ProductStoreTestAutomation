@@ -1,6 +1,5 @@
 import base.BaseTests;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 import pages.CartPage;
@@ -27,18 +26,16 @@ public class BuyTests extends BaseTests
                 .fillLoginPassword("test")
                 .logInClick();
         loginPage.accountControl("Welcome test");
-        screenshot();
+
         //Ürün Seçimi
         homePage.clickProduct();
-
         //Ürün Sayfasına Giriş Kontrolü
         productPage.productControl("Add to cart")
                 .addToCartClick();
 
         driver.navigate().refresh();
-        screenshot();
-        productPage.cartClick();
 
+        productPage.cartClick();
         cartPage.cartControl("Place Order")
                 .placeOrderClick()
                 .fillName("Emin")
@@ -49,7 +46,6 @@ public class BuyTests extends BaseTests
                 .fillYear("1998")
                 .purchaseClick()
                 .shoppingControl("OK");
-
         screenshot();
     }
 }

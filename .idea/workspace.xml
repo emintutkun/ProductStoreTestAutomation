@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="532b6ed4-b60d-4aa2-b909-2b28826e494b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BaseTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BuyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTests.java" afterDir="false" />
     </list>
@@ -50,9 +53,10 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.BuyTests.ClickProduct.executor": "Run",
+    "TestNG.<default>.executor": "Run",
+    "TestNG.BuyTests.ClickProduct.executor": "Debug",
     "TestNG.BuyTests.executor": "Run",
-    "TestNG.LoginTests.executor": "Debug",
+    "TestNG.LoginTests.executor": "Run",
     "TestNG.RegisterTests.Test1RegisterSucccesfullControl.executor": "Debug",
     "TestNG.RegisterTests.Test1RegisterSuccessfulControl.executor": "Debug",
     "TestNG.RegisterTests.executor": "Run",
@@ -61,7 +65,7 @@
     "last_opened_file_path": "C:/Users/Win10/Desktop/Github/ProductStoreTestAutomation"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.BuyTests">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="BuyTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProductStoreTestAutomation" />
       <option name="PACKAGE_NAME" value="" />
@@ -107,12 +111,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterTests.Test1RegisterSuccessfulControl" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ProductStoreTestAutomation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RegisterTests" />
-      <option name="METHOD_NAME" value="Test1RegisterSuccessfulControl" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -121,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.BuyTests" />
         <item itemvalue="TestNG.BuyTests.ClickProduct" />
-        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.RegisterTests" />
-        <item itemvalue="TestNG.RegisterTests.Test1RegisterSuccessfulControl" />
+        <item itemvalue="TestNG.LoginTests" />
       </list>
     </recent_temporary>
   </component>

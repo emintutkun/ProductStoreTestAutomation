@@ -19,6 +19,6 @@ public class BaseTests extends BaseLibrary
     @AfterMethod
     public void tearDown()
     {
-        //driver.quit();
+        driver.quit();
     }
 }
