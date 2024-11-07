@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="532b6ed4-b60d-4aa2-b909-2b28826e494b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/BuyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BuyTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegisterTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegisterTests.java" afterDir="false" />
     </list>
@@ -24,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/emintutkun/ProductStoreTestAutomation.git",
+    "accountId": "ba983e05-bbbf-480e-a96e-ee1efe95693f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
